@@ -22,6 +22,8 @@ To view your leave list and statuses, follow these steps:
 
 ![My Leave List](/img/hr/employee-deshboard/leave-list.png)
 
+---
+
 ## My Leave Add (Apply Leave)
 
 To apply for a new leave request, follow these steps:
@@ -34,3 +36,68 @@ To apply for a new leave request, follow these steps:
 6. Click the **Submit** button to confirm and send your leave application, or click **Cancel** to abort the process.
 
 ![My Leave Add](/img/hr/employee-deshboard/leave-add.png)
+
+---
+
+## Important Rules for Applying Leave
+
+### Rule 1 — One Pending Leave at a Time
+
+![My Leave Already Pending](/img/hr/employee-deshboard/Medical-leave-already-pending.png)
+
+If you already have a **pending** leave request of the same type (e.g., Medical Leave), you **cannot apply for another leave** of that type until your current pending request has been reviewed and approved or rejected by your Supervisor.
+
+> **Error Message:** *"Medical Leave Request Already Pending"*
+
+You must wait for your Supervisor to approve or reject your existing pending leave before submitting a new one.
+
+---
+
+### Rule 2 — Casual Leave Requires 6 Months of Service
+
+![My Leave Join 6 Months or Casual Leave](/img/hr/employee-deshboard/employee-leave-6-month.png)
+
+Employees are **not eligible to apply for Casual Leave** until they have completed at least **6 months of service** from their joining date.
+
+> **Error Message:** *"You must be 6 months old to apply for casual leave"*
+
+If you try to apply for Casual Leave before completing 6 months, the system will block the submission and display this error message. Please wait until you have completed 6 months of employment before applying for Casual Leave.
+
+---
+
+## View Leave Details
+
+![My Leave View](/img/hr/employee-deshboard/employee-leave-view.png)
+
+To view the full details of a submitted leave request, click the **Info (ⓘ) icon** in the Actions column. A read-only view of the leave application will open, showing:
+
+- **Leave Type** — The type of leave applied for (e.g., Medical Leave)
+- **Leave Date(s)** — The selected dates highlighted on the calendar
+- **Reason** — The reason entered by the employee
+
+> **Note:** The View dialog does not have a **Submit** button — only a **Cancel** button, as this is a read-only display. You can view any leave regardless of its approval status.
+
+---
+
+## Edit a Leave Request
+
+![My Leave Edit](/img/hr/employee-deshboard/employee-leave-edit.png)
+
+To edit a leave request, click the **Edit (pencil) icon** in the Actions column. You can update the Leave Type, Leave Date(s), and Reason, then click **Submit** to save the changes.
+
+> **Important:** You can **only edit a leave request while its Supervisor Status is PENDING**. Once the Supervisor has **Approved** or **Rejected** the leave, the edit option will be disabled and the leave can no longer be modified.
+
+---
+
+## Delete a Leave Request
+
+![My Leave Delete](/img/hr/employee-deshboard/employee-leave-delete.png)
+
+To delete a leave request, click the **Delete (trash) icon** in the Actions column. A warning dialog will appear:
+
+> **Are you sure you want to delete?**
+
+- Click **Delete** to permanently remove the leave request.
+- Click **Cancel** to go back without deleting.
+
+> **Important:** You can **only delete a leave request while its Supervisor Status is PENDING**. Once the Supervisor has **Approved** the leave, the delete option will be disabled and the record cannot be removed. In the leave list, rows with **APPROVED** status will have their Edit and Delete icons grayed out and non-clickable.
