@@ -150,7 +150,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} MES. Built with <a href="https://hybri.tech" target="_blank"> Hybri tech</a>`
+      copyright: `Copyright © ${new Date().getFullYear()} MES. Built with <a href="https://hybri.tech" target="_blank"> Hybritech Innovations Ltd</a>`
     },
     prism: {
       theme: prismThemes.github,
