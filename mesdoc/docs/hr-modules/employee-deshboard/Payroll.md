@@ -1,5 +1,5 @@
 ---
-sidebar-position: 6
+sidebar_position: 6
 ---
 
 The **Payroll** section allows employees to view and download their salary breakdowns and payroll history.

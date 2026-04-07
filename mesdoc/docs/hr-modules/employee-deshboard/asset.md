@@ -4,7 +4,7 @@ sidebar_position: 4
 
 # Asset
 
-The **Asset** section allows employees to track equipment provided to them by the company.
+The **Asset** section allows employees to track assets provided to them by the company.
 
 ## Asset List
 
