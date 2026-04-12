@@ -34,6 +34,11 @@ This command generates static content into the `build` directory and can be serv
 ### Option 1: Vercel (Recommended)
 This project is optimized for [Vercel](https://vercel.com). Code changes are deployed instantly.
 
+**Token Generation:**
+```bash
+npx vercel --prod --token your_new_token
+
+```
 **Manual Deployment via CLI:**
 ```bash
 npx vercel --prod
