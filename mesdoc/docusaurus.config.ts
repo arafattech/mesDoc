@@ -98,6 +98,11 @@ const config: Config = {
           position: 'left',
           label: 'Workflow',
         },
+        {
+          to: '/brochure',
+          position: 'left',
+          label: 'Brochure',
+        },
         // blog link url
         // {to: '/blog', label: 'Blog', position: 'left'},
         {
