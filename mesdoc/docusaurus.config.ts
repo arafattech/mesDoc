@@ -86,7 +86,7 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'MES',
+      title: 'MES Docs',
       logo: {
         alt: 'smart-industry Logo',
         src: 'img/mes-logo.png',
@@ -96,7 +96,7 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Workflow',
+          label: 'Documentation',
         },
         {
           to: '/brochure',
@@ -119,7 +119,7 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Workflow',
+              label: 'Documentation',
               to: '/docs/intro',
             },
           ],
