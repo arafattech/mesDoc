@@ -101,7 +101,7 @@ const config: Config = {
         {
           to: '/brochure',
           position: 'left',
-          label: 'Brochure',
+          label: 'BrochureFAH',
         },
         // blog link url
         // {to: '/blog', label: 'Blog', position: 'left'},
