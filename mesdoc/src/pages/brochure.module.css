@@ -161,3 +161,63 @@
     padding: 2rem 1.4rem;
   }
 }
+
+/* Dark Mode Overrides */
+:global([data-theme='dark']) .page {
+  background:
+    radial-gradient(circle at top left, rgba(59, 130, 246, 0.15), transparent 35%),
+    linear-gradient(180deg, #0f172a 0%, #1e293b 50%, #0f172a 100%);
+}
+
+:global([data-theme='dark']) .heroCopy {
+  background: rgba(30, 41, 59, 0.7);
+  border-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 22px 60px rgba(0, 0, 0, 0.3);
+}
+
+:global([data-theme='dark']) .eyebrow {
+  color: #60a5fa;
+}
+
+:global([data-theme='dark']) .title {
+  color: #f1f5f9;
+}
+
+:global([data-theme='dark']) .description {
+  color: #cbd5e1;
+}
+
+:global([data-theme='dark']) .meta span {
+  background: #1e293b;
+  border-color: #334155;
+  color: #94a3b8;
+}
+
+:global([data-theme='dark']) .sectionTitle {
+  color: #f1f5f9;
+}
+
+:global([data-theme='dark']) .highlightCard {
+  background: rgba(30, 41, 59, 0.8);
+  border-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 18px 44px rgba(0, 0, 0, 0.25);
+  color: #cbd5e1;
+}
+
+:global([data-theme='dark']) .figure {
+  background: rgba(30, 41, 59, 0.8);
+  border-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 20px 52px rgba(0, 0, 0, 0.2);
+}
+
+:global([data-theme='dark']) .caption {
+  color: #94a3b8;
+}
+
+:global([data-theme='dark']) .heroCard::before {
+  background: linear-gradient(135deg, rgba(59, 130, 246, 0.2), rgba(45, 212, 191, 0.2));
+}
+
+:global([data-theme='dark']) .heroImage {
+  box-shadow: 0 26px 65px rgba(0, 0, 0, 0.4);
+}
