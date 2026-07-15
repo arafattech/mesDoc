@@ -32,14 +32,21 @@ This command generates static content into the `build` directory and can be serv
 ## Deployment
 
 ### Option 1: Vercel (Recommended)
-This project is optimized for [Vercel](https://vercel.com). Code changes are deployed instantly.
+This project is connected directly to Vercel and configured to automatically build and deploy every time you push new code to the `main` branch.
 
-**Manual Deployment via CLI:**
+**Manual Deployment via Vercel CLI:**
+If you want to manually trigger a deployment from your local machine, you can run:
 ```bash
+# Build the project
+yarn build
+
+# Deploy to Vercel Production
 npx vercel --prod
 ```
-Using SSH:
+The project is pre-linked to Vercel via `.vercel/project.json` in both the root and `mesdoc` directories.
 
+### Option 2: GitHub Pages (Alternative)
+Using SSH:
 
 ```bash
 USE_SSH=true yarn deploy
@@ -52,3 +59,4 @@ GIT_USER=<Your GitHub username> yarn deploy
 ```
 
 If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+
