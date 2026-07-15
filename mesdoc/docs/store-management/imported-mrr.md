@@ -7,6 +7,12 @@ description: Imported MRR
 
 This module allows you to handle Material Receipt Reports (MRR) for imported goods.
 
+## View Imported MRR List
+To view the Imported MRR list:
+1. Navigate to **Store Management > Imported MRR**.
+2. Use the **Partial**, **Completed**, and **Cancelled** tabs to filter records by status.
+3. Click a row to load its **MRR Log** (received items) in the panel on the right.
+
 ## Add Imported MRR
 To create a new Imported MRR:
 1. Navigate to the **Imported MRR** section.
